@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>payment</title>
+  </head>
+  <body>
+    <h3>Welcome to payment gateway</h3>
+    <form action="createSession" method="post">
+      <script
+        src="//checkout.stripe.com/v2/checkout.js"
+        class="stripe-button"
+        data-key="pk_test_51MXTNISIcKPik3mXNNNYLAT2T6HmRypd2BM66wvsequ1pcho7VYxmfS8nedWBpFShfTKn1xT5q7ZhFRUMswbbq9c00UVf7eXA5"
+        data-amount="7000"
+        data-currency="inr"
+        data-name="FoodApp"
+        data-discription="buy Food plan"
+        data-locate="auto"
+      ></script>
+    </form>
+  </body>
+</html>
